@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Swift-M7200",
+            "type": "swift",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Swift-M7200",
+            "args": [],
+            "env": {},
+            "cwd": "${workspaceFolder:Swift-M7200}",
+            "preLaunchTask": "swift: Build Debug Swift-M7200",
+            "target": "Swift-M7200",
+            "configuration": "debug"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-M7200}",
+            "name": "Debug Swift-M7200-Demo",
+            "target": "Swift-M7200-Demo",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Swift-M7200-Demo"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-M7200}",
+            "name": "Release Swift-M7200-Demo",
+            "target": "Swift-M7200-Demo",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Swift-M7200-Demo"
+        }
+    ]
+}
